@@ -28,6 +28,7 @@
 }
 .summary-container {
   padding-bottom: 10px;
+  color: #ccd6f6;
 }
 .list-description {
   list-style: square;
@@ -45,6 +46,13 @@
 .font-1-1rem {
   font-size: 1.1rem !important;
 }
+
+.align-li {
+  padding: 0;
+  margin: 0;
+  list-style: square;
+}
+
 @media screen and (max-width: 800px) {
   .main-container-job {
     padding-right: 0;
@@ -70,5 +78,10 @@
   .left-content,
   .list-description {
     font-size: 0.8rem;
+  }
+  .main-list-container {
+    width: 80%;
+    padding-right: 0;
+    border-right: none;
   }
 }
