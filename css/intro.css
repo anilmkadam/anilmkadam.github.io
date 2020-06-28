@@ -1,0 +1,78 @@
+.main-intro {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.name {
+  color: #ffffff;
+}
+.major {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.current-working {
+  color: rgba(192, 203, 205, 0.6);
+  font-size: 2rem;
+}
+.short-desc {
+  margin-top: 5%;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #96a7ab;
+}
+.side-spacing {
+  margin-right: 40px;
+  padding-right: 40px;
+}
+.top-space {
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+.clr {
+  color: #64ffda;
+}
+
+@media screen and (max-width: 955px) {
+  .container {
+    padding-top: 4%;
+  }
+
+  .major {
+    font-size: 2.5rem;
+  }
+
+  .short-desc,
+  .main-intro {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding-top: 6%;
+  }
+
+  .major {
+    font-size: 2.2rem;
+  }
+
+  .short-desc {
+    font-size: 2.1rem;
+  }
+
+  .short-desc,
+  .main-intro {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 8%;
+  }
+  .side-spacing {
+    margin-right: 18px;
+    padding-right: 15px;
+  }
+}

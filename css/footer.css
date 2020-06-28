@@ -1,0 +1,16 @@
+.content-flex {
+  display: flex !important;
+  justify-content: center !important;
+}
+.fa {
+  padding: 30px;
+  color: #ffffff;
+}
+.footer {
+  background-color: #001e21;
+}
+.content-text {
+  color: #ffffff;
+  font-size: 0.95em;
+  font-family: Poppins, sans-serif;
+}

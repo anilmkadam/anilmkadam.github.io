@@ -1,0 +1,61 @@
+.tech-stack {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tech-icon {
+  height: 35px;
+  margin: 10px 10px 10px 10px;
+}
+
+.main-project-container {
+  width: 70%;
+  padding-right: 100px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.border-bottom {
+  border-bottom: 1px solid #ffffff;
+}
+.top-margin {
+  margin-top: 5%;
+}
+.axios-icon {
+  height: 23px !important;
+}
+
+@media screen and (max-width: 800px) {
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+  }
+  .tech-icon {
+    height: 35px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .tech-icon {
+    height: 35px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tech-stack {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+}
