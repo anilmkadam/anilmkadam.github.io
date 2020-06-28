@@ -8,9 +8,16 @@
 }
 .footer {
   background-color: #001e21;
+  min-height: 12vh;
 }
 .content-text {
   color: #ffffff;
   font-size: 0.95em;
   font-family: Poppins, sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .fa-2x {
+    font-size: 1.5em;
+  }
 }
