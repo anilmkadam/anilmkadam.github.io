@@ -31,3 +31,48 @@
   background-color: #001e21;
   border-color: #ffffff;
 }
+nav {
+  min-height: 10vh;
+}
+@media screen and (max-width: 990px) {
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #64ffda !important;
+    border-bottom: 1px solid white;
+    width: 15%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #64ffda !important;
+    border-bottom: 1px solid white;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #64ffda !important;
+    border-bottom: 1px solid white;
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #64ffda !important;
+    border-bottom: 1px solid white;
+    width: 28%;
+  }
+}
