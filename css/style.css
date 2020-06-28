@@ -43,18 +43,38 @@ body {
   height: 85vh;
   margin: 25px;
 }
-
+.min-height {
+  min-height: 58vh;
+}
 .heart {
   color: red;
+}
+@media screen and (max-width: 1500px) {
+  .background {
+    height: 50vh;
+  }
+  .commom-min-height {
+    min-height: 76vh;
+  }
 }
 @media screen and (max-width: 1200px) {
   .background {
     height: 50vh;
   }
+  .commom-min-height {
+    min-height: 76vh;
+  }
 }
+
+@media screen and (max-width: 1000px) {
+  .background {
+    height: 42vh;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .background {
-    height: 50vh;
+    height: 42vh;
   }
 }
 
