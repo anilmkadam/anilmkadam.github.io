@@ -49,21 +49,8 @@ body {
 .heart {
   color: red;
 }
-@media screen and (max-width: 1500px) {
-  .background {
-    height: 50vh;
-  }
-  .commom-min-height {
-    min-height: 76vh;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .background {
-    height: 50vh;
-  }
-  .commom-min-height {
-    min-height: 76vh;
-  }
+.commom-min-height {
+  min-height: 78vh;
 }
 
 @media screen and (max-width: 1000px) {
@@ -86,5 +73,15 @@ body {
 @media screen and (max-width: 400px) {
   .background {
     height: 30vh;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .background {
+    height: 60vh;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .background {
+    height: 70vh;
   }
 }
