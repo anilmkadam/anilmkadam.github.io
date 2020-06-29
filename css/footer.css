@@ -6,6 +6,10 @@
   padding: 30px;
   color: #ffffff;
 }
+
+.fa:hover {
+  color: #64ffda;
+}
 .footer {
   background-color: #001e21;
   min-height: 12vh;
@@ -13,7 +17,9 @@
 .content-text {
   color: #ffffff;
   font-size: 0.95em;
-  font-family: Poppins, sans-serif;
+}
+footer > .row {
+  margin-right: 0;
 }
 
 @media screen and (max-width: 500px) {
