@@ -10,7 +10,7 @@ body {
   background-color: #033437 !important;
 }
 .background {
-  background: url("../images/dev2.png");
+  background: url("../images/back8.png");
   background-size: cover;
   /* background-attachment: fixed; */
   background-position: center center;
@@ -24,7 +24,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  height: 70vh;
+  height: 350px;
 }
 .coming-soon {
   background: url("../images/comingsoon.gif");
@@ -55,33 +55,33 @@ body {
 
 @media screen and (max-width: 1000px) {
   .background {
-    height: 42vh;
+    height: 350px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .background {
-    height: 42vh;
+    height: 350px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .background {
-    height: 35;
+    height: 300px;
   }
 }
 @media screen and (max-width: 400px) {
   .background {
-    height: 30vh;
+    height: 240px;
   }
 }
 @media screen and (min-width: 1000px) {
   .background {
-    height: 60vh;
+    height: 350px;
   }
 }
 @media screen and (min-width: 1200px) {
   .background {
-    height: 70vh;
+    height: 350px;
   }
 }
