@@ -75,6 +75,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .mr-4p {
+    margin-top: 4%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   #red {
     left: -45%;
