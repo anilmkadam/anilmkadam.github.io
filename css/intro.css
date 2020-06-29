@@ -6,12 +6,13 @@
   color: #ffffff;
 }
 .major {
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: bolder;
 }
 .current-working {
   color: rgba(192, 203, 205, 0.6);
-  font-size: 2rem;
+  font-size: 1.7rem;
+  font-weight: bolder;
 }
 .short-desc {
   margin-top: 5%;
@@ -44,6 +45,9 @@
   .main-intro {
     font-size: 0.9rem;
   }
+  .current-working {
+    font-size: 1.7rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -63,6 +67,9 @@
   .main-intro {
     font-size: 0.8rem;
   }
+  .current-working {
+    font-size: 1.7rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -74,5 +81,8 @@
   .side-spacing {
     margin-right: 18px;
     padding-right: 15px;
+  }
+  .current-working {
+    font-size: 1.4rem;
   }
 }
