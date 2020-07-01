@@ -188,12 +188,10 @@
   </script>
   <script>
     var email = document.getElementById("email");
-    console.log(email);
     var clipboard = new ClipboardJS(email);
 
     clipboard.on("success", function (e) {
       $(".toast").toast("show");
-      console.log(e);
     });
 
     clipboard.on("error", function (e) {
