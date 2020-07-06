@@ -66,6 +66,9 @@
   .main-project-container {
     padding-right: 0px;
   }
+  .content-align {
+    margin-left: 30%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -75,5 +78,8 @@
   }
   .main-project-container {
     padding-right: 0px;
+  }
+  .content-align {
+    margin-left: 30%;
   }
 }
