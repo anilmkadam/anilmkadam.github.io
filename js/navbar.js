@@ -3,7 +3,7 @@
 $(document).ready(() => {
   $("#resumeBtn").click(() => {
     window.open(
-      "https://drive.google.com/file/d/1S8b6AXtL4_gwsJg6wMRntBDjza99lEzb/view?usp=sharing"
+      "https://drive.google.com/file/d/1qSbUp1UihgE00vMKj1NuStwJooxsNWVm/view?usp=sharing"
     );
   });
   var elmnt = document.getElementById("navbarItems");
